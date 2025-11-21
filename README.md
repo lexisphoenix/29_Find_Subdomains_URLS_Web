@@ -121,9 +121,9 @@ Suite completa de pentesting:
 
 | Categoría | Scripts | Dependencias | Complejidad | Uso Recomendado |
 |-----------|---------|-------------|-------------|-----------------|
-| **Principales** | 3 | 0-10+ | ⭐-⭐⭐⭐ | Uso general |
-| **Especializados** | 3 | 1-3 | ⭐-⭐⭐⭐ | Casos específicos |
-| **Enumeración** | 4 | 2-5 | ⭐-⭐⭐ | Enumeración básica |
+| **Principales** | 3 | 0-10+ | ⭐⭐⭐⭐ | Uso general |
+| **Especializados** | 3 | 1-3 | ⭐⭐⭐⭐ | Casos específicos |
+| **Enumeración** | 4 | 2-5 | ⭐⭐⭐ | Enumeración básica |
 | **Pentesting** | 1 | 10+ | ⭐⭐⭐⭐ | Auditorías completas |
 
 ---
