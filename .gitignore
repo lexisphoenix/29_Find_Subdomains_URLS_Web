@@ -1,0 +1,55 @@
+# Resultados de escaneos
+resultados_*/
+scan_*/
+
+# Archivos temporales
+*.tmp
+*.temp
+*_temp*.txt
+*_temp*.json
+urls_temp*.txt
+subs_temp*.txt
+
+# Archivos de salida
+*.txt
+*.json
+!README.md
+
+# Logs
+*.log
+output.log
+nohup.out
+
+# Archivos específicos de dominio (ejemplos)
+*_completo.txt
+*_avanzado.txt
+*_subdominios.txt
+*_urls.txt
+archivos_encontrados.txt
+url_especifica.txt
+katana_urls.txt
+gau_urls.txt
+rutas_especificas.txt
+
+# Directorios de resultados
+gospider_output/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Credenciales y configuraciones sensibles
+*.key
+*.pem
+*.env
+config.json
+secrets.txt
+
+# Backups
+*.bak
+*.backup
+*.old
+
