@@ -36,7 +36,9 @@ echo "🌐 Buscando subdominios..."
 # API de crt.sh (Certificate Transparency)
 echo "  📡 Consultando crt.sh..."
 curl -s "https://crt.sh/?q=%25.${DOMINIO}&output=json" 2>/dev/null | \
-    grep -oP '"name_value":\s*"\K[^"]*' | \
+    grep -o '"name_value":"[^"]*"' | \
+    sed 's/"name_value":"//' | \
+    sed 's/"$//' | \
     sed 's/\\n/\n/g' | \
     grep -E "^[a-zA-Z0-9.-]+\.${DOMINIO}$" | \
     sort -u >> "$DIR_RESULTADOS/subs_temp.txt" 2>/dev/null
